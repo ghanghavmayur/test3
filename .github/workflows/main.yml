@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: checkput code
-        uses: actions/checkput@v2
+        uses: actions/checkout@v2
 
       - name: print message
         runs: echo "welcome mayur"
